@@ -57,7 +57,7 @@ try:
 
       print("{}: {} ({})".format(cmc_rank, name, sysmbol)) 
       print("Market cap: \t\t${}".format(market_cap))
-      print("Price: \t\t\t${}".format(price))
+      print("Price: \t\t\t${:,}".format(price))
       print("24h Volume: \t\t{}".format(volume))
       print("Hour change: \t\t{}%".format(hour_change))
       print("Day change: \t\t{}%".format(day_change))
